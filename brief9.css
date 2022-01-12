@@ -3,3 +3,11 @@
     TOP: 10px;
     left:100%;
 }
+#logo {
+    height: 80px;
+    width: 80px;
+}
+img{
+    height: 150px;
+    width: 200px;
+}

@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    height: auto;
+}
+nav{
+    position:fixed;
+}
 .bi{
     color: white;
     TOP: 10px;
@@ -8,13 +18,26 @@
     width: 80px;
 }
 .image1{
-    height: 200px;
-    width: 250px;
-    margin: 10px;
+    height: 330px;
+    width: 450px;
     border-radius: 10px;
 }
-h1{
+.h1{
+color: rgb(247, 241, 244);
+margin-top: 200px;
+}
+.h2{
     color: white;
-    margin-top: 40px;
+    font-size: 50px;
+}
+.imagee{
+    height: 500px;
+    width: 700px;
+}
+select{
+    border: none;
+}
+option{
+    border: none;
 }
 

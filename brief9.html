@@ -11,13 +11,19 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
 
             <img src="logo.png" id="logo" class="img-rounded">
             <a class="navbar-brand" href="#">home</a>
             <a class="navbar-brand" href="#">top playlists</a>
-            <a class="navbar-brand" href="#">top singers</a>
+            <select name="top" class="bg-primary navbar-brand">
+                <option disabled selected hidden value>top singers</option>
+                <option value="eminem">eminem</option>
+                <option value="drake">drake</option>
+                <option value="maluma">maluma</option>
+
+            </select>
 
             <form class="d-flex ">
                 <input class="form-control me-2" id="inps" placeholder="search" position-relative> 
@@ -29,27 +35,39 @@
             </form>
         </div>
     </nav>
-
-        <div class="row" >
-
-            <div class="col bg-primary" >
-                <img src="image1.jpeg"  class="image1 img-rounded">
-            </div>
-                <div class="col bg-primary">
-                    <h1 class="text-center ">you can listen <br> to favorite singers</h1>
+    <article class="container-fluid bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="iimage1.png" class=" image1 m-1" >
                 </div>
-        </div>
+                <div class="col-sm">
+                    <h1 class="h1 text-center">you can listen to favorite singers</h1>
+                </div>           
 
-        <div class="row" >
-
-            <div class="col bg-primary" >
-                <img src="image1.jpeg"  class="image1 img-rounded">
+  
             </div>
-                <div class="col bg-primary">
-                    <h1 class="text-center ">you can listen <br> to favorite singers</h1>
-                </div>
 
+            <div class="row">                   
+    
+                <div class="col-sm">
+                    <h1 class="h2 text-center">Where it suits you. <br>
+                        As you wish.</h1>
+                </div>
+                <div class="col-sm">
+                    <img src="imagee.png" class=" imagee">
+           
+            </div>
+            <div class="col-sm" id="content"></div>
         </div>
+    </article>
+    <footer class="bg-light">
+        
+
+    </footer>
+
+    
+
 
 
 
@@ -69,6 +87,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="brief9.js"></script>
 
     
 </body>

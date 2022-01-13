@@ -7,7 +7,14 @@
     height: 80px;
     width: 80px;
 }
-img{
-    height: 150px;
-    width: 200px;
+.image1{
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
 }
+h1{
+    color: white;
+    margin-top: 40px;
+}
+

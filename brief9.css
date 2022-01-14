@@ -40,4 +40,13 @@ select{
 option{
     border: none;
 }
-
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+img{
+    height: 350px;
+    width: 360px;
+}
